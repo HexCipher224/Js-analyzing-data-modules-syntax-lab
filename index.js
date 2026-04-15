@@ -1,3 +1,4 @@
+require('datejs');
 //step 1: combineUsers function creation
 function combineUsers(...args) {
   //step 2:initialize return object
@@ -14,7 +15,7 @@ function combineUsers(...args) {
   combinedObject.merge_date = new Date().toString("M/d/yyyy");
 }
 
-  // step 7: retuen object
+  // step 7: return object
   return combinedObject;
 
 
