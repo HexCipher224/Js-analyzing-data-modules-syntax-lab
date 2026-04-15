@@ -1,4 +1,6 @@
+//Required datejs at the top
 require('datejs');
+
 //step 1: combineUsers function creation
 function combineUsers(...args) {
   //step 2:initialize return object
