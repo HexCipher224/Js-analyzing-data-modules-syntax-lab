@@ -9,7 +9,7 @@ function combineUsers(...args) {
   };
 
   //step 3and 4: loop through each argument and merge arrays
-  args.forEach(element => {
+  args.forEach(arr => {
     combinedObject.users.push(...arr);
   });
 
